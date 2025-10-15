@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-void print_star()
+void print_star(int N)
 {
      int i;
-     for(i=0;i<10;i++)
+     for(i=0;i<N;i++)
       printf("*");
       
 }
@@ -11,9 +11,9 @@ void print_star()
 
 int main(void)
 {
-  print_star();
-  print_star();
-  print_star();
+  print_star(10);
+  print_star(10);
+  print_star(10);
   
   system("PAUSE");	
   return 0;
